@@ -1,0 +1,25 @@
+Package: emojizer
+Type: Package
+Title: Emojizer
+Version: 0.1.1
+Authors@R: c(
+    person(given = "Juan Cruz", family = "Rodriguez", 
+        role = c("aut", "cre"), email = "jcrodriguez@unc.edu.ar")
+    )
+Maintainer: Juan Cruz Rodriguez <jcrodriguez@unc.edu.ar>
+Description: Automatically emojize R code. 
+    Emojizer functions and addin take R code as input, and returns R code as 
+    output.
+License: GPL-3
+URL: https://github.com/jcrodriguez1989/emojizer/
+BugReports: https://github.com/jcrodriguez1989/emojizer/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports: 
+    rco,
+    rstudioapi,
+    shiny,
+    emo (>= 0.0.0.9000)
+Remotes:  
+    hadley/emo

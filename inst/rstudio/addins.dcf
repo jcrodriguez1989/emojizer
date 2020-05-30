@@ -1,0 +1,4 @@
+Name: Emojize active file
+Description: Apply `emojizer` to current open file
+Binding: emojize_active_file
+Interactive: true
