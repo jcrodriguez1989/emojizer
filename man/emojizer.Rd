@@ -13,13 +13,3 @@ emojizer(texts)
 Performs one emojizer pass.
 Carefully examine the results after running this function!
 }
-\examples{
-code <- paste(
-  "train <- function(param) {",
-  "  param + 100",
-  "}",
-  sep = "\n"
-)
-cat(emojizer(list(code))$codes[[1]])
-
-}

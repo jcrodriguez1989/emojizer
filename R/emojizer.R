@@ -5,19 +5,8 @@
 #'
 #' @param texts A list of character vectors with the code to optimize.
 #'
-#' @examples
-#' code <- paste(
-#'   "train <- function(param) {",
-#'   "  param + 100",
-#'   "}",
-#'   sep = "\n"
-#' )
-#' cat(emojizer(list(code))$codes[[1]])
-#'
 #' @import rco
 #' @import emo
-#'
-#' @export
 #'
 emojizer <- function(texts) {
   res <- list(codes = texts)
